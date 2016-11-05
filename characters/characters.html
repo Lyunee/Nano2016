@@ -41,17 +41,30 @@ text {
 
 // http://blog.thomsonreuters.com/index.php/mobile-patent-suits-graphic-of-the-day/
 var links = [
-  {source: "Majorie Delafeu, HistoryTeacher", target: "Katrine Darby, PoliceWmn", type: "work"},
-  {source: "Majorie Delafeu, HistoryTeacher", target: "Kid", type: "work"},
-  {source: "Kid", target: "KnowledgeGuardian", type: "enemy"},
-  {source: "Kid", target: "ScDad", type: "friend"},
-  {source: "Kid", target: "ScMum", type: "friend"},
-  {source: "ScMum", target: "ScDad", type: "friend"},
-  {source: "PI", target: "Stephen, PoliceM", type: "work"},
-  {source: "PI", target: "Mafia", type: "work"},
-  {source: "PI", target: "Lady", type: "friend"},
-  {source: "Lady", target: "Mafia", type: "enemy"},
-  {source: "Katrine Darby, PoliceWmn", target: "Henrik, PoliceM", type: "work"}
+  {source: "Majorie Delafeu, HistoryTeacher", target: "Katrine Darby, AS PoliceWmn", type: "work"},
+  {source: "Majorie Delafeu, HistoryTeacher", target: "Manuel Daugherty, ScKid", type: "work"},
+  {source: "Manuel Daugherty, ScKid", target: "Edward, KnowledgeGuardian", type: "enemy"},
+  {source: "Manuel Daugherty, ScKid", target: "Yvan Daugherty, ScDad", type: "friend"},
+  {source: "Manuel Daugherty, ScKid", target: "Laureen Daugherty, ScMum", type: "friend"},
+  {source: "Laureen Daugherty, ScMum", target: "Yvan Daugherty, ScDad", type: "friend"},
+  {source: "Darius, PI", target: "Stephen Moore, AS PoliceM", type: "work"},
+  {source: "Darius, PI", target: "Mafia", type: "work"},
+  {source: "Darius, PI", target: "Elena, Lady", type: "friend"},
+  {source: "Elena, Lady", target: "Mafia", type: "enemy"},
+  {source: "Katrine Darby, AS PoliceWmn", target: "Henrik, AS PoliceM", type: "work"},
+  {source: "Katrine Darby, AS PoliceWmn", target: "Edward, KnowledgeGuardian", type: "enemy"},
+  {source: "Katrine Darby, AS PoliceWmn", target: "Stephen Moore, AS PoliceM", type: "work"},
+  {source: "Victor Devlin, AS PoliceM", target: "Stephen Moore, AS PoliceM", type: "work"},
+  {source: "Victor Devlin, AS PoliceM", target: "Edward, KnowledgeGuardian", type: "work"},
+  {source: "Edward, KnowledgeGuardian", target: "Ronald, Major", type: "work"},
+  {source: "Edward, Murderer", target: "Katrine Darby, AS PoliceWmn", type: "enemy"},
+  {source: "Edward, Murderer", target: "Victor Devlin, AS PoliceM", type: "enemy"},
+  {source: "Edward, Murderer", target: "Stephen Moore, AS PoliceM", type: "enemy"},
+  {source: "Edward, Murderer", target: "Henrik, AS PoliceM", type: "enemy"},
+  {source: "Liana Chastain, victim", target: "Majorie Delafeu, HistoryTeacher", type: "friend"},
+  {source: "Liana Chastain, victim", target: "Edward, Murderer", type: "enemy"},
+  {source: "George, ScBoss", target: "Laureen Daugherty, ScMum", type: "work"},
+  {source: "Elderson Family, ScFNeighbors", target: "Manuel Daugherty, ScKid", type: "friend}
 ];
 
 var nodes = {};
